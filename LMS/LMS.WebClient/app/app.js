@@ -1,4 +1,5 @@
 ﻿
-(function(){
-    var app = angular.module(CustomerApp, ['LMS', "common.services"]);
+(function () {
+    "use strict"
+    var app = angular.module("LMS",[]);
 }());

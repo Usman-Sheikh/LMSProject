@@ -1,0 +1,29 @@
+﻿<div class="panel panel-primary"
+     ng-controller="bookController as vm">
+    <div class="panel-heading"
+         style="font-size:large">
+        Books List
+    </div>
+
+    <div class="panel-body">
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Author</td>
+                    <td>Price</td>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="book in vm.books">
+                    <td>{{ book.name}}</td>
+                    <td>{{ book.author }}</td>
+                    <td>{{ book.price | currency  }}</td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
