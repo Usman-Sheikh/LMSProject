@@ -17,6 +17,7 @@ namespace LMS.API.Models
     
         public LMSAPIContext() : base("name=LMSAPIContext")
         {
+          
         }
 
         public DbSet<Book> Books { get; set; }

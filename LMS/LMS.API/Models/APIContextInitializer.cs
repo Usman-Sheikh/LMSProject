@@ -6,7 +6,7 @@ using System.Web;
 
 namespace LMS.API.Models
 {
-    public class APIContextInitializer : DropCreateDatabaseAlways<LMSAPIContext>
+    public class APIContextInitializer : DropCreateDatabaseIfModelChanges<LMSAPIContext>
     {
         protected override void Seed(LMSAPIContext context)
         {
