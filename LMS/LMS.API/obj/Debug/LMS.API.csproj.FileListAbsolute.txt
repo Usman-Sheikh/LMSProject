@@ -158,3 +158,6 @@ E:\GitHubProjects\LMSProject\LMS\LMS.API\bin\System.Web.Optimization.xml
 E:\GitHubProjects\LMSProject\LMS\LMS.API\obj\Debug\LMS.API.csprojResolveAssemblyReference.cache
 E:\GitHubProjects\LMSProject\LMS\LMS.API\obj\Debug\LMS.API.dll
 E:\GitHubProjects\LMSProject\LMS\LMS.API\obj\Debug\LMS.API.pdb
+C:\Users\Probase\Documents\GitHub\LMSProject\LMS\LMS.API\bin\System.Web.Cors.dll
+C:\Users\Probase\Documents\GitHub\LMSProject\LMS\LMS.API\bin\System.Web.Http.Cors.dll
+C:\Users\Probase\Documents\GitHub\LMSProject\LMS\LMS.API\bin\System.Web.Http.Cors.xml

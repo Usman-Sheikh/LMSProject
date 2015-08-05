@@ -10,9 +10,11 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
 using LMS.API.Models;
+using System.Web.Http.Cors;
 
 namespace LMS.API.Controllers
 {
+    [EnableCorsAttribute("http://localhost:39758/", "*", "*")]
     public class BooksController : ApiController
     {
         private LMSAPIContext db = new LMSAPIContext();
